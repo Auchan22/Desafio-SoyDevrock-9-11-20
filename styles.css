@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); }
+/*Color Fondo y fuente: #112a49*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #112a49 !important;
+}
+
+main{
+    background-color: #ffffff;
+    width: 95%;
+    min-height: 780px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+header{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.iconos{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icono{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.icono a {
+    text-decoration: none;
+}
+
+.icono a i{
+    color: #112a49;
+    font-size: 45px;
+}
+
+#info .row #about_me .Titulo, 
+#info .row #about_me .parrafo{
+    color: #112a49;
+    font-family: 'Montserrat', sans-serif  ;
+}
+
+#info .row #about_me .Titulo{
+    font-weight: 900;
+    font-size: 52px;
+    line-height: 70px;
+    margin-bottom: 40px;
+    z-index: 10000px;
+    position: relative;
+}
+
+#info .row #about_me .Titulo .back{
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    bottom: 0;
+    background-color: #ecedff;
+    z-index: -1000px;
+    opacity: 50%;
+}
+
+#info .row #about_me .parrafo{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#info .row #about_me a{
+    background-color: #4353ff;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+#info .row #foto {
+    position: relative;
+    margin-bottom: 51%;
+}
+
+#info .row #foto .puntos_fondo{
+    position: absolute;
+    z-index: -1000px;
+}
+
+#info .row #foto .personal{
+    position: absolute;
+    z-index: 1000px;
+    top: 65px;
+    left: 115px;
+    -webkit-box-shadow: 32px 32px 0px 0px rgba(67,83,255,1);
+    -moz-box-shadow: 32px 32px 0px 0px rgba(67,83,255,1);
+    box-shadow: 32px 32px 0px 0px rgba(67,83,255,1);
+}
+
+@media (max-width: 575.98px) { 
+    main{
+        background-color: #ffffff;
+        width: 95%;
+        min-height:900px;
+        margin: 30px auto;
+        border-radius: 5px;
+    }
+    
+    header{
+        padding-top: 50px;
+        padding-bottom: 70px;
+    }
+    
+    .iconos{
+        list-style: none;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .icono{
+        display: inline-block;
+        margin-right: 30px;
+    }
+    
+    .icono a {
+        text-decoration: none;
+    }
+    
+    .icono a i{
+        color: #112a49;
+        font-size: 30px;
+    }
+    
+    #info .row #about_me .Titulo, 
+    #info .row #about_me .parrafo{
+        color: #112a49;
+        font-family: 'Montserrat', sans-serif  ;
+    }
+    
+    #info .row #about_me .Titulo{
+        font-weight: 900;
+        font-size: 52px;
+        line-height: 70px;
+        margin-bottom: 40px;
+        z-index: 10000px;
+        position: relative;
+    }
+    
+    #info .row #about_me .Titulo .back{
+        position: absolute;
+        width: 100%;
+        height: 23px;
+        bottom: 0;
+        background-color: #ecedff;
+        z-index: -1000px;
+        opacity: 50%;
+    }
+    
+    #info .row #about_me .parrafo{
+        font-size: 20px;
+        margin-bottom: 50px;
+    }
+    
+    #info .row #about_me a{
+        background-color: #4353ff;
+        text-decoration: none;
+        color: #ffffff;
+        font-weight: bolder;
+        padding: 20px 40px;
+        border-radius: 5px;
+    }
+    
+    #info .row #foto {
+        position: relative;
+        margin:20px 50px 51% 50px;
+        display: none;
+    }
+    
+    #info .row #foto .puntos_fondo{
+        position: absolute;
+        z-index: -1000px;
+        height: 100px;
+        margin-top: 20px;
+    }
+    
+    #info .row #foto .personal{
+        position: absolute;
+        height: 200px;
+        width: 135px;
+        z-index: 1000px;
+        top: 50px;
+        left: 70px;
+        -webkit-box-shadow: 32px 32px 0px 0px rgba(67,83,255,1);
+        -moz-box-shadow: 32px 32px 0px 0px rgba(67,83,255,1);
+        box-shadow: 32px 32px 0px 0px rgba(67,83,255,1);
+    }
+ }
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {  }
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {  }
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) { }
+
+
+@media (min-width: 1200px) {  }
