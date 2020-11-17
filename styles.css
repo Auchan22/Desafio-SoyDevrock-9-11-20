@@ -6,6 +6,8 @@
     padding: 0px;
 }
 
+
+
 body{
     background-color: #112a49 !important;
 }
@@ -14,9 +16,13 @@ main{
     background-color: #ffffff;
     width: 95%;
     min-height: 780px;
-    margin: 30px auto;
     border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
 }
+
 
 header{
     padding-top: 50px;
