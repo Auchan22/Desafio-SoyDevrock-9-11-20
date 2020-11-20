@@ -6,7 +6,10 @@
     padding: 0px;
 }
 
-
+.centrado{
+    max-width: 1440px;
+    margin:30px auto;
+}
 
 body{
     background-color: #112a49 !important;
@@ -14,13 +17,8 @@ body{
 
 main{
     background-color: #ffffff;
-    width: 95%;
     min-height: 780px;
     border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px auto;
 }
 
 
@@ -47,6 +45,11 @@ header{
 .icono a i{
     color: #112a49;
     font-size: 45px;
+}
+
+.icono a i:hover{
+    color:#4353ff;
+    transition: 0.1s all ease-in-out;
 }
 
 #info .row #about_me .Titulo, 
@@ -86,6 +89,11 @@ header{
     font-weight: bolder;
     padding: 20px 40px;
     border-radius: 5px;
+}
+
+#info .row #about_me a:hover {
+    background-color: #112a49;
+    transition: 0.1s all ease-in-out;
 }
 
 #info .row #foto {
